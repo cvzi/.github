@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support cvzi&#39;s open source work">
 
   <link rel="dns-prefetch" href="https://github.githubassets.com">
   <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
   <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
   <title>Sponsor cvzi 💜</title>
+
   <link rel="icon" class="js-site-favicon" type="image/svg+xml"
     href="https://cdn.jsdelivr.net/npm/openmoji@latest/color/svg/1F49C.svg">
+
   <style>
     body {
       font-family: BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
@@ -81,10 +85,14 @@
       border-width: 0px;
       border-bottom-width: 1px;
       margin: 0;
-      padding: 16px;
+      padding: 16px 30px;
       font-size: 16px;
     }
-    
+
+    .header h3 {
+      margin: 0;
+    }
+
     .header .title img {
       border-radius: 50%;
       margin: 0 1em;
@@ -149,6 +157,19 @@
       font-family: monospace;
       padding: 16px;
       padding-bottom: 0px;
+    }
+
+    @media screen and (max-width: 480px) and (orientation: portrait) {
+      .dialog {
+        margin: auto auto;
+        width: 100vw;
+      }
+      .qr-link {
+        display: none;
+      }
+      .address {
+        line-break:anywhere;
+      }
     }
 
   </style>
